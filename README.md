@@ -9,10 +9,11 @@ Contributo de Isaura Santos (filho) --> fazer logout antes de quit do IE, tem im
 
 O que não foi feito:
 - pelo facto dos valores estarem registados no site com o formato texto (pex: 999,53 €), para se poderem usar fórmulas e serem tratados como números é preciso retirar os caracteres de texto. A solução que encontrei foi usar conversão com base nas minhas definições regionais, haverá casos em que não irá funcionar. Ainda não encontrei uma alternativa que funcione para todos os casos, mas quem tem problemas com a forma como os números são apresentados pode corrigir desta forma, nos dois locais onde tem a fórmula, módulo "CopiarValoresTotais", e ver se resulta /no meu pc não consigo testar.
-Antes
-Format(Replace(Replace(Replace(IVA, " €", ""), ".", ""), ",", "."), "##.##0,00")
-Depois
-Format(Replace(Replace(Replace(IVA, " €", ""), ".", ""), ",", ","), "##,##0.00")
+
+Antes: Format(Replace(Replace(Replace(IVA, " €", ""), ".", ""), ",", "."), "##.##0,00")
+
+Depois: Format(Replace(Replace(Replace(IVA, " €", ""), ".", ""), ",", ","), "##,##0.00")
+
 -- Irei divulgar uma versão para pcs com outras definições regionais
 
 
