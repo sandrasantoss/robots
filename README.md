@@ -1,4 +1,9 @@
 # robots
+Robot preparado para consultar os valores mensais registados no e-factura, como Comerciante -- VERSÃO 1.2 em 01/02/2021
+
+Alteração feita:
+Retirada a formatação do número, que dava erro com números pequenos.
+
 Robot preparado para consultar os valores mensais registados no e-factura, como Comerciante -- VERSÃO 1.1 em 31/01/2021
 
 Alterações feitas:
