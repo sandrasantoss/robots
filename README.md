@@ -1,4 +1,4 @@
-# robots --> Página em edição
+# robots --> Página em edição  --> clicar em cima do robot que se pretende e clicar em "download"
 
 Robot preparado para consultar os valores mensais registados no e-factura, como Comerciante -- VERSÃO 1.2 em 01/02/2021
 
